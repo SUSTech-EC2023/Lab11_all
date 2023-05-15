@@ -17,8 +17,10 @@ def sigmoid(x):
 ### Neural Network
 The neural network contains two layers:
 
-First layer: 2 input neurons, 3 hidden neurons
-Second layer: 3 hidden neurons, 1 output neuron
+First layer: 2 input neurons, 3 hidden neurons;
+
+Second layer: 3 hidden neurons, 1 output neuron;
+
 Weights are represented as a flat NumPy array, which is reshaped when passed to the predict function:
 ```python
 def predict(weights, inputs):
